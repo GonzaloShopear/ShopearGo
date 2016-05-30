@@ -1,6 +1,6 @@
 (function() {
 
-	angular.module('Digivice')
+	angular.module('ShopearGo')
 	.controller('MainCtrl', ['$scope', 'TamersFactory', MainCtrl])
 
 	function MainCtrl ($scope, TamersFactory) {

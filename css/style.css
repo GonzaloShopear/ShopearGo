@@ -1,3 +1,18 @@
 .info {
 	display: block;
 }
+
+
+.navbar-shopear {
+	background-color: #0E2740;
+	color: #fafafa;
+	border-radius: 0;
+}
+
+.brand-shopear {
+	padding: 7px;
+}
+
+a, a:active, a:hover, a:focus {
+	color: inherit;
+}

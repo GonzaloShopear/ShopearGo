@@ -1,5 +1,5 @@
-.info {
-	display: block;
+body {
+	color: #696F7D;
 }
 
 .navbar-shopear {
@@ -7,6 +7,7 @@
 	color: #fafafa;
 	border-radius: 0;
 	margin-bottom: 0;
+	box-shadow: 0 1px 2px #4E6780;
 }
 
 .navbar-shopear .navbar-nav a {
@@ -28,11 +29,31 @@
 	border-radius: 4px;
 }
 
+.navbar-separator {
+	height:50px;
+}
+
+.page-footer {
+	background-color: #333;
+	color: #ccc;
+	font-size: 13px;
+}
+
+.page-footer li a {
+	padding: 5px;
+}
+
+.page-footer .footer-links {
+	border-bottom: solid 2px #ccc;
+}
+
 .home-brands {
 	background-color: green; 
 	position: absolute; 
 	bottom: 0; 
 	left: 0;
+	width: 100%;
+	color: #fafafa;
 }
 
 .brand-shopear {
@@ -45,8 +66,33 @@
 	max-width: 600px;
 }
 
-a, a:active, a:hover, a:focus {
+.page-section {
+	min-height:100vh;
+ 	position: relative;
+}
+
+.section-separator {
+	margin-top: 100px;
+}
+
+.section-header {
+}
+
+.home-header-section {
+	background: blue;
+}
+
+a, a:active, a:hover, a:focus, a:active:focus {
 	color: inherit;
+	background-color: inherit;
+}
+
+footer a:hover, footer a:active, footer a:focus, footer a:active:focus {
+	background-color: inherit !important;
+}
+
+footer a:hover {
+	color: #fff;
 }
 
 .btn-shp-blue {
@@ -163,4 +209,17 @@ fieldset[disabled] .btn-shp-green.focus {
 .btn-shp-green .badge {
   color: #bdde33;
   background-color: #fff;
+}
+
+.badge-icon {
+	border-radius: 100%;
+	background-color: #ccc;
+	padding: 30px;
+	color: #fafafa;
+	font-size: 50px;
+}
+
+.section-points .points-benefit h4 {
+	margin-top: 35px;
+	color: #777;
 }

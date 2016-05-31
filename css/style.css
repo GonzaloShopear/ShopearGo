@@ -7,7 +7,7 @@ body {
 	color: #fafafa;
 	border-radius: 0;
 	margin-bottom: 0;
-	box-shadow: 0 1px 2px #4E6780;
+	box-shadow: 0 1px 5px #4E6780;
 }
 
 .navbar-shopear .navbar-nav a {
@@ -226,4 +226,13 @@ fieldset[disabled] .btn-shp-green.focus {
 .section-points .points-benefit h4 {
 	margin-top: 35px;
 	color: #777;
+}
+
+.how-icon {
+	font-size: 56px;
+}
+
+.how-list li {
+	font-size: 18px;
+	margin-bottom: 15px;
 }

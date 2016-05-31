@@ -87,6 +87,10 @@ a, a:active, a:hover, a:focus, a:active:focus {
 	background-color: inherit;
 }
 
+.nav > li > a:hover, .nav > li > a:active, .nav > li > a:focus, .nav > li > a:active:focus {
+	background-color: inherit;
+}
+
 footer a:hover, footer a:active, footer a:focus, footer a:active:focus {
 	background-color: inherit !important;
 }

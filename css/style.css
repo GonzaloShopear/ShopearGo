@@ -340,6 +340,14 @@ fieldset[disabled] .btn-shp-green.focus {
 	height: 80vh;
 }
 
+.dark-caption {
+	color: #696F7D;
+}
+
+.top-caption {
+	top: 5px;
+}
+
 @media (min-width: 768px) {
 
 	.how-center-logo {

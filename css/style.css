@@ -48,11 +48,13 @@ i {
 .navbar-shopear .navbar-nav a {
 	padding-left: 5px;
 	padding-right: 5px;
+	transition: all 0.5s ease;
 }
 
 .navbar-shopear .navbar-nav a span {
 	padding: 10px;
 	border: solid 2px #0E2740;
+	transition: all 0.5s ease;
 }
 
 .navbar-shopear .navbar-nav a:hover {
@@ -328,6 +330,14 @@ fieldset[disabled] .btn-shp-green.focus {
 .li-download span:hover {
 	background-color: #fafafa;
 	color: #0E2740;
+}
+
+.carousel-section {
+	height: 80vh;
+}
+
+.carousel-section .item {
+	height: 80vh;
 }
 
 @media (min-width: 768px) {

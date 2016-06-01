@@ -1,6 +1,6 @@
 (function() {
 
-	angular.module('ShopearGo', ['ngRoute', 'ngResource']);
+	angular.module('ShopearGo', ['ngRoute',
+ 								'ngResource']);
 
 })();
-

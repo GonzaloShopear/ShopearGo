@@ -153,7 +153,7 @@ i {
 }
 
 .how-header-section {
-	background: #36A1B3;
+	background-color: #36A1B3;
 }
 
 a, a:active, a:hover, a:focus, a:active:focus {
@@ -333,19 +333,45 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 
 .carousel-section {
-	height: 80vh;
+	height: 70vh;
 }
 
 .carousel-section .item {
-	height: 80vh;
+	height: 70vh;
 }
 
 .dark-caption {
-	color: #696F7D;
+	color: #00cff0;
+	text-shadow: 1px 1px #333;
 }
 
 .top-caption {
 	top: 5px;
+}
+
+.carousel-container {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.platform-section2 {
+	background: url('../assets/img/engage-and-measure.jpg');
+	background-size: cover;
+}
+
+.platform-last-section {
+	background: url('../assets/img/fashion-woman-dark.jpg');
+	color: #fafafa;
+	text-shadow: 1px 1px #333;
+}
+
+.how-contact-section {
+	background-color: #36A1B3;
+	color: #fafafa;
+}
+
+.how-contact-section h2 {
+	text-shadow: 1px 1px #333;
 }
 
 @media (min-width: 768px) {

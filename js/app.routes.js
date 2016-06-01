@@ -12,7 +12,7 @@
 			})
 			.when('/como-funciona', {
 				templateUrl: 'views/how.html',
-				controller: 'HomeCtrl',
+				controller: 'HowCtrl',
 				data: {
 					private: false
 				}

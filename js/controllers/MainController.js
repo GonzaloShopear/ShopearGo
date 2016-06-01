@@ -4,7 +4,7 @@
 	.controller('MainCtrl', ['$scope', MainCtrl])
 
 	function MainCtrl ($scope) {
-
+		$scope.downloadDisabled = false;
 	};
 	
 })();

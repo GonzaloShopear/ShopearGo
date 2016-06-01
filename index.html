@@ -12,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 
-	<body ng-cloak ng-controller="MainCtrl">
+	<body ng-cloak ng-controller="MainCtrl" class="text-justify">
 
 		<nav class="navbar navbar-fixed-top navbar-shopear">
 			<div class="container">
@@ -29,6 +29,9 @@
 		        		<li><a href="#">
 		        			<span>Preguntas Frecuentes</span>
 	        			</a></li>
+	        			<li class="li-download"><a href="#">
+		        			<span>DESCARGAR</span>
+	        			</a></li>
 		        	</ul>
 	    		</div>
     		</div>
@@ -44,7 +47,7 @@
 						<img class="center-block" height="36" src="assets/img/grafs/shopear-logo-white.svg">
 					</div>
 					<br>
-					<ul class="nav nav-justified footer-links">
+					<ul class="nav nav-justified">
 						<li><a href="#">
 		        			<span>Sobre Nosotros</span>
 	        			</a></li>
@@ -65,9 +68,21 @@
 	        			</a></li>
 		        	</ul>
 				</div>
-				<br>
-				<div class="col-xs-12 col-sm-4 col-sm-offset-4">
-					<ul class="nav nav-justified">
+				<div class="row">
+					<div class="col-xs-12 text-center">
+						<div class="download-wrapper">
+							<img src="assets/img/grafs/appStoreSoon.png" height="46"></img>
+							<img src="assets/img/grafs/googlePlaySoon.png" height="50"></img>
+						</div>
+					</div>					
+				</div>
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+					<div class="text-center">
+						<p>© 2016 Shopear ♥ Todos los derechos reservados</p>
+						<p>Apple, iPad, iPhone, iPod touch y iTunes son marcas registradas de Apple Inc. App Store es una marca de Apple Inc.</p>
+					</div>
+					<br>
+					<ul class="nav nav-justified legal-links">
 						<li><a href="#">
 		        			<span>Términos</span>
 	        			</a></li>
@@ -78,10 +93,6 @@
 		        			<span>Copyright</span>
 	        			</a></li>
 		        	</ul>
-		        	<br>
-					<div class="text-center">
-						<p>© 2016 Shopear ♥ Todos los derechos reservados</p>
-					</div>
 				</div>
 			</div>
 		</footer>

@@ -1,17 +1,21 @@
-<section class="container-fluid page-section home-header-section">
+<section class="container-fluid page-section how-header-section">
 	<div class="section-separator"></div>
 	<div class="container">
 		<div class="jumbotron jumbotron-shopear center-block text-center">
 			<br/>
-			<img class="center-block" height="108" src="assets/img/grafs/shopear-logo-white.svg">
+			<img class="center-block how-center-logo" src="assets/img/grafs/shopear-logo-white.svg">
 			<div class="navbar-separator"></div>
 		  	<h4>¡La aplicación que te recompensa por ir de compras!</h4>
 		</div>
+		<div class="row text-center">
+			<a ng-click="scrollTo('scan')"><i class="fa fa-arrow-circle-o-down how-down-white"></i></a>
+		</div>
+		<div class="navbar-separator"></div>
 	</div>
-	<div class="container-fluid home-brands">
+	<div class="container-fluid home-brands how-nav">
 		<div class="container-fluid">
 			<div class="col-xs-12 col-sm-8 col-sm-offset-2">
-				<ul class="nav nav-justified">
+				<ul class="nav nav-justified hidden-xs">
 					<li><a href="" ng-click="scrollTo('points')">
 	        			<span><i class="fa fa-plus-circle"></i> Puntos</span>
         			</a></li>
@@ -35,22 +39,31 @@
 		</div>
 	</div>
 </section>
-<section class="container-fluid page-section">
+<section class="container-fluid page-section soft-green-bg" id="points">
 	<div class="container">
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3" id="points">
-			<div class="section-separator"></div>
-			<div class="text-center">
-				<h2 class="section-header center-block">¿Para que sirven los puntos?</h2>
-				<h4 class="center-block">Junta puntos al salir de compras y cámbialos por productos.</h4>
-				<h4 class="center-block">¡Hay muchas formas de sumar puntos!</h4>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+				<div class="section-separator"></div>
+				<div class="text-center">
+					<h2 class="section-header center-block">¿Para que sirven los puntos?</h2>
+					<h4 class="center-block">Junta puntos al salir de compras y cámbialos por productos.</h4>
+					<h4 class="center-block">¡Hay muchas formas de sumar puntos!</h4>
+					<div class="section-separator"></div>
+					<i class="fa fa-plus-circle how-big-icon-blue"></i>
+				</div>
 			</div>
 		</div>
+		<div class="row text-center">
+			<div class="navbar-separator"></div>
+			<a ng-click="scrollTo('walk-in')"><i class="fa fa-arrow-circle-o-down how-down"></i></a>
+		</div>
+		<div class="navbar-separator"></div>
 	</div>
 </section>
-<section class="container-fluid page-section">
+<section class="container-fluid page-section soft-blue-bg" id="walk-in">
 	<div class="container">
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3" id="walk-in">
-			<div class="section-separator"></div>
+		<div class="section-separator"></div>
+		<div class="col-xs-12 col-sm-7 col-sm-offset-1">
 			<div>
 				<h2 class="section-header center-block">Puntos por Visitar un Local</h2>
 				<ul class="list-unstyled how-list">
@@ -93,12 +106,25 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-</section>
-<section class="container-fluid page-section">
-	<div class="container">
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3" id="scan">
+		<div class="col-sm-3">
 			<div class="section-separator"></div>
+			<i class="fa fa-sign-in how-bigger-icon-green"></i>
+		</div>
+	</div>
+	<div class="row text-center">
+		<div class="navbar-separator"></div>
+		<a ng-click="scrollTo('scan')"><i class="fa fa-arrow-circle-o-down how-down"></i></a>
+	</div>
+	<div class="navbar-separator"></div>
+</section>
+<section class="container-fluid page-section soft-green-bg" id="scan">
+	<div class="container">
+		<div class="section-separator"></div>
+		<div class="col-sm-3 col-sm-offset-1">
+			<div class="section-separator"></div>
+			<i class="fa fa-barcode how-bigger-icon-blue"></i>
+		</div>
+		<div class="col-xs-12 col-sm-7">
 			<div>
 				<h2 class="section-header center-block">Puntos por Escanear Productos</h2>
 				<ul class="list-unstyled how-list">
@@ -142,11 +168,16 @@
 			</div>
 		</div>
 	</div>
+	<div class="row text-center">
+		<div class="navbar-separator"></div>
+		<a ng-click="scrollTo('buy')"><i class="fa fa-arrow-circle-o-down how-down"></i></a>
+	</div>
+	<div class="navbar-separator"></div>
 </section>
-<section class="container-fluid page-section">
+<section class="container-fluid page-section soft-blue-bg" id="buy">
 	<div class="container">
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-			<div class="section-separator"></div>
+		<div class="section-separator"></div>
+		<div class="col-xs-12 col-sm-7 col-sm-offset-1">
 			<div>
 				<h2 class="section-header center-block">Puntos por Comprar con tu Tarjeta de Crédito</h2>
 				<ul class="list-unstyled how-list">
@@ -189,12 +220,25 @@
 				</ul>
 			</div>
 		</div>
-	</div>
-</section>
-<section class="container-fluid page-section">
-	<div class="container">
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+		<div class="col-sm-3">
 			<div class="section-separator"></div>
+			<i class="fa fa-credit-card how-bigger-icon-green"></i>
+		</div>
+	</div>
+	<div class="row text-center">
+		<div class="navbar-separator"></div>
+		<a ng-click="scrollTo('receipt')"><i class="fa fa-arrow-circle-o-down how-down"></i></a>
+	</div>
+	<div class="navbar-separator"></div>
+</section>
+<section class="container-fluid page-section soft-green-bg" id="receipt">
+	<div class="container">
+		<div class="section-separator"></div>
+		<div class="col-sm-3 col-sm-offset-1">
+			<div class="section-separator"></div>
+			<i class="fa fa-file-text-o how-bigger-icon-blue"></i>
+		</div>
+		<div class="col-xs-12 col-sm-7">
 			<div>
 				<h2 class="section-header center-block">Puntos por Recibos</h2>
 				<ul class="list-unstyled how-list">
@@ -238,11 +282,16 @@
 			</div>
 		</div>
 	</div>
+	<div class="row text-center">
+		<div class="navbar-separator"></div>
+		<a ng-click="scrollTo('friends')"><i class="fa fa-arrow-circle-o-down how-down"></i></a>
+	</div>
+	<div class="navbar-separator"></div>
 </section>
-<section class="container-fluid page-section">
+<section class="container-fluid page-section soft-blue-bg" id="friends">
 	<div class="container">
-		<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-			<div class="section-separator"></div>
+		<div class="section-separator"></div>
+		<div class="col-xs-12 col-sm-7 col-sm-offset-1">
 			<div>
 				<h2 class="section-header center-block">Puntos por Invitar Amigos</h2>
 				<ul class="list-unstyled how-list">
@@ -275,6 +324,10 @@
 					</li>
 				</ul>
 			</div>
+		</div>
+		<div class="col-sm-3">
+			<div class="section-separator"></div>
+			<i class="fa fa-user-plus how-bigger-icon-green"></i>
 		</div>
 	</div>
 </section>

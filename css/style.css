@@ -2,6 +2,41 @@ body {
 	color: #696F7D;
 }
 
+i {
+	cursor: default;
+}
+
+.soft-green-bg {
+	background-color: #F5FFFF;
+}
+
+.soft-blue-bg {
+	background-color: #F5FFF5;
+}
+
+.how-down {
+	cursor: pointer;
+	font-size: 48px;
+	color: #aaa;
+	transition: color 0.5s;
+}
+
+.how-down:hover {
+	color: #555;
+}
+
+.how-down-white {
+	cursor: pointer;
+	font-size: 56px;
+	color: #ddd;
+	transition: all 0.5s ease;
+}
+
+.how-down-white:hover {
+	color: #fff;
+	text-shadow: 0 0 1px #fff;
+}
+
 .navbar-shopear {
 	background-color: #0E2740;
 	color: #fafafa;
@@ -34,7 +69,7 @@ body {
 }
 
 .page-footer {
-	background-color: #333;
+	background-color: #0E2740;
 	color: #ccc;
 	font-size: 13px;
 }
@@ -48,12 +83,40 @@ body {
 }
 
 .home-brands {
-	background-color: green; 
+	background-color: #bdde33; 
 	position: absolute; 
 	bottom: 0; 
 	left: 0;
 	width: 100%;
 	color: #fafafa;
+}
+
+.how-big-icon-green {
+	font-size: 180px;
+	color: #bdde33;
+}
+
+.how-big-icon-blue {
+	font-size: 180px;
+	color: #00cff0;
+}
+
+.how-bigger-icon-green {
+	font-size: 240px;
+	color: #bdde33;
+}
+
+.how-bigger-icon-blue {
+	font-size: 240px;
+	color: #00cff0;
+}
+
+.how-center-logo {
+	height: 70px;
+}
+
+.how-nav {
+	background-color: #9dbe13;
 }
 
 .brand-shopear {
@@ -79,7 +142,16 @@ body {
 }
 
 .home-header-section {
-	background: blue;
+	background-image: url('../assets/img/main-cover-small.jpg');
+	background-size: cover;
+}
+
+.home-header-section h2 {
+	text-shadow: 1px 1px #333;
+}
+
+.how-header-section {
+	background: #36A1B3;
 }
 
 a, a:active, a:hover, a:focus, a:active:focus {
@@ -229,10 +301,43 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 
 .how-icon {
-	font-size: 56px;
+	font-size:32px;
 }
 
 .how-list li {
 	font-size: 18px;
 	margin-bottom: 15px;
+}
+
+.download-wrapper {
+	display: inline-block;
+	margin: 30px 0;
+}
+
+.legal-links {
+	margin-bottom: 30px;
+	text-decoration: underline;
+}
+
+.li-download span {
+	border: solid 2px #fafafa !important;
+	border-radius: 4px;
+	transition: all 0.5s ease;
+}
+
+.li-download span:hover {
+	background-color: #fafafa;
+	color: #0E2740;
+}
+
+@media (min-width: 768px) {
+
+	.how-center-logo {
+		height: 108px;
+	}
+
+	.how-icon {
+		font-size: 56px;
+	}
+
 }

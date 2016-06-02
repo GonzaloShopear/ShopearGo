@@ -17,27 +17,6 @@
 					private: false
 				}
 			})
-			.when('/preguntas-frecuentes', {
-				templateUrl: 'views/faqs.html',
-				controller: 'HomeCtrl',
-				data: {
-					private: false
-				}
-			})
-			.when('/sobre-nosotros', {
-				templateUrl: 'views/about.html',
-				controller: 'HomeCtrl',
-				data: {
-					private: false
-				}
-			})
-			.when('/partners', {
-				templateUrl: 'views/partners.html',
-				controller: 'HomeCtrl',
-				data: {
-					private: false
-				}
-			})
 			.when('/plataforma', {
 				templateUrl: 'views/platform.html',
 				controller: 'HomeCtrl',
@@ -49,6 +28,12 @@
 				templateUrl: 'views/contact.html',
 				controller: 'HomeCtrl',
 				data: {
+					private: false
+				}
+			})
+			.when('/terminos', {
+				templateUrl: 'views/terms.html',
+				data : {
 					private: false
 				}
 			})

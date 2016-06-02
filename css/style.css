@@ -449,6 +449,14 @@ fieldset[disabled] .btn-shp-green.focus {
 	text-shadow: 1px 1px #333;
 }
 
+.platform-features-section {
+	background-image: url('../assets/img/shopearBeacon.jpg');
+	background-size: cover;
+	background-position: center right;
+	color: #fafafa;
+	text-shadow:  1px 1px #333;
+}
+
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none !important;
 }

@@ -7,11 +7,11 @@ i {
 }
 
 .soft-green-bg {
-	background-color: #F5FFFF;
+	background-color: #E3FFFF;
 }
 
 .soft-blue-bg {
-	background-color: #F5FFF5;
+	background-color: #ECFFE3;
 }
 
 .how-down {
@@ -42,7 +42,7 @@ i {
 	color: #fafafa;
 	border-radius: 0;
 	margin-bottom: 0;
-	box-shadow: 0 1px 5px #4E6780;
+	box-shadow: 0 1px 5px #333;
 }
 
 .navbar-shopear .navbar-nav a {
@@ -156,6 +156,11 @@ i {
  	position: relative;
 }
 
+.page-section-small {
+	min-height: 80vh;
+	position: relative;
+}
+
 .section-separator {
 	margin-top: 100px;
 }
@@ -164,7 +169,7 @@ i {
 }
 
 .home-header-section {
-	background-image: url('../assets/img/main-cover-small.jpg');
+	background-image: url('../assets/img/main-cover-dark.jpg');
 	background-size: cover;
 }
 
@@ -403,8 +408,11 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 
 .platform-section2 {
-	background-image: url('../assets/img/engage-and-measure.jpg');
+	background-image: url('../assets/img/woman-mobile2.jpg');
 	background-size: cover;
+	background-position: center left;
+	color: #fafafa;
+	text-shadow: 1px 1px #333;
 }
 
 .platform-last-section {
@@ -444,9 +452,9 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 
 .home-gift-section {
-	background-color: #36A1B3;
-	color: #fafafa;
-	text-shadow: 1px 1px #333;
+	background-color: #fafafa;
+	color: #333;
+	text-shadow: 1px 1px #fafafa;
 }
 
 .platform-features-section {
@@ -455,6 +463,15 @@ fieldset[disabled] .btn-shp-green.focus {
 	background-position: center right;
 	color: #fafafa;
 	text-shadow:  1px 1px #333;
+}
+
+.dark-font {
+	color: #333;
+}
+
+.contact-msg {
+	min-width: 100%;
+	max-width: 100%;
 }
 
 [ng\:cloak], [ng-cloak], .ng-cloak {

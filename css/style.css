@@ -381,6 +381,10 @@ fieldset[disabled] .btn-shp-green.focus {
 	text-shadow: 1px 1px #333;
 }
 
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
 @media (min-width: 768px) {
 
 	.how-center-logo {

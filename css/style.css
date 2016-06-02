@@ -93,6 +93,26 @@ i {
 	color: #fafafa;
 }
 
+.band-green {
+	background-color: #bdde33; 
+	position: absolute; 
+	bottom: 0; 
+	left: 0;
+	height: 20px;
+	width: 100%;
+	color: #fafafa;
+}
+
+.band-blue {
+	background-color: #00cff0; 
+	position: absolute; 
+	bottom: 0; 
+	left: 0;
+	height: 20px;
+	width: 100%;
+	color: #fafafa;
+}
+
 .how-big-icon-green {
 	font-size: 180px;
 	color: #bdde33;
@@ -290,16 +310,44 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 
 .badge-icon {
-	border-radius: 100%;
 	background-color: #ccc;
+	border-radius: 100%;
 	padding: 30px;
 	color: #fafafa;
 	font-size: 50px;
+	text-shadow: none;
+}
+
+.badge-icon-blue {
+	background-color: #00cff0;
+	border-radius: 100%;
+	padding: 30px;
+	color: #fafafa;
+	font-size: 50px;
+	text-shadow: none;
+	text-align: center;
+	width: 100%;
+}
+
+.badge-icon-green {
+	background-color: #bdde33;
+	border-radius: 100%;
+	padding: 30px;
+	color: #fafafa;
+	font-size: 50px;
+	text-shadow: none;
+	text-align: center;
+	width: 100%;
+}
+
+.badge-icon-gift {
+	width: auto;
 }
 
 .section-points .points-benefit h4 {
 	margin-top: 35px;
-	color: #777;
+	color: #fafafa;
+	text-shadow: 1px 1px #333;
 }
 
 .how-icon {
@@ -372,12 +420,32 @@ fieldset[disabled] .btn-shp-green.focus {
 	background-position: right top;
 }
 
+.home-discover-section {
+	background-image: url('../assets/img/fashion-woman-dark.jpg');
+	color: #fafafa;
+	text-shadow: 1px 1px #333;
+}
+
+.home-points-section {
+	background-image: url('../assets/img/hero-photo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fafafa;
+	text-shadow: 1px 1px #333;
+}
+
 .how-contact-section {
 	background-color: #36A1B3;
 	color: #fafafa;
 }
 
 .how-contact-section h2 {
+	text-shadow: 1px 1px #333;
+}
+
+.home-gift-section {
+	background-color: #36A1B3;
+	color: #fafafa;
 	text-shadow: 1px 1px #333;
 }
 

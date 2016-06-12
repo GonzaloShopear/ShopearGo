@@ -474,6 +474,16 @@ fieldset[disabled] .btn-shp-green.focus {
 	max-width: 100%;
 }
 
+.carousel-inner .item2 {
+	background-image: url('../assets/img/platform-how1.4.jpg');
+	background-size: cover;
+}
+
+.carousel-inner .item3 {
+	background-image: url('../assets/img/platform-how2.2.jpg');
+	background-size: cover;
+}
+
 [ng\:cloak], [ng-cloak], .ng-cloak {
     display: none !important;
 }

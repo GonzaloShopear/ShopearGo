@@ -1,10 +1,13 @@
 (function() {
 
 	angular.module('ShopearGo')
-	.controller('MainCtrl', ['$scope', MainCtrl])
+	.controller('MainCtrl', ['$scope', '$location', '$anchorScroll', MainCtrl])
 
-	function MainCtrl ($scope) {
-		$scope.downloadDisabled = false;
+	function MainCtrl ($scope, $location, $anchorScroll) {
+		$scope.scrollTo = function(id) {
+			$location.hash(id);
+			$anchorScroll();
+		}
 	};
 	
 })();

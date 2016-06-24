@@ -125,12 +125,12 @@ i {
 }
 
 .how-bigger-icon-green {
-	font-size: 240px;
+	font-size: 200px;
 	color: #bdde33;
 }
 
 .how-bigger-icon-blue {
-	font-size: 240px;
+	font-size: 200px;
 	color: #00cff0;
 }
 
@@ -143,7 +143,7 @@ i {
 }
 
 .brand-shopear {
-	padding: 7px;
+	padding: 12px;
 }
 
 .jumbotron-shopear {
@@ -316,34 +316,17 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 
 .badge-icon {
-	background-color: #ccc;
-	border-radius: 100%;
-	padding: 30px;
-	color: #fafafa;
-	font-size: 50px;
 	text-shadow: none;
 }
 
 .badge-icon-blue {
-	background-color: #00cff0;
-	border-radius: 100%;
-	padding: 30px;
-	color: #fafafa;
-	font-size: 50px;
+	color: #00cff0;
 	text-shadow: none;
-	text-align: center;
-	width: 100%;
 }
 
 .badge-icon-green {
-	background-color: #bdde33;
-	border-radius: 100%;
-	padding: 30px;
-	color: #fafafa;
-	font-size: 50px;
+	color: #bdde33;
 	text-shadow: none;
-	text-align: center;
-	width: 100%;
 }
 
 .badge-icon-gift {
@@ -467,6 +450,10 @@ fieldset[disabled] .btn-shp-green.focus {
 	text-shadow: 1px 1px #fafafa;
 }
 
+.home-gift-section .fa-gift {
+	color: #fafafa;
+}
+
 .platform-features-section {
 	background-image: url('../assets/img/shopearBeacon.jpg');
 	background-size: cover;
@@ -482,6 +469,11 @@ fieldset[disabled] .btn-shp-green.focus {
 .contact-msg {
 	min-width: 100%;
 	max-width: 100%;
+}
+
+.carousel-inner .item1 {
+	background-image: url('../assets/img/platform-how.jpg');
+	background-size: cover;
 }
 
 .carousel-inner .item2 {
@@ -510,6 +502,10 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 .navbar-collapse.collapsing span {
 	display: block;
+}
+
+.jumbotron-shopear .btn {
+	margin-bottom: 10px;
 }
 
 [ng\:cloak], [ng-cloak], .ng-cloak {

@@ -516,6 +516,11 @@ fieldset[disabled] .btn-shp-green.focus {
 
 @media (min-width: 768px) {
 
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
 	.how-center-logo {
 		height: 108px;
 	}

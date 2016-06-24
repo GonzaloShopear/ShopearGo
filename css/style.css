@@ -500,11 +500,12 @@ fieldset[disabled] .btn-shp-green.focus {
 	background-position: center bottom;
 }
 
-.navbar-collapse.collapse.in .navbar-nav>li>a {
-	padding: 0 !important;
+.navbar-nav>li>a {
+	padding-top: 0;
+	padding-bottom: 0;
 }
 
-.navbar-collapse.collapse.in span {
+.navbar-collapse.collapse span {
 	display: block;
 	width: 100%;
 }

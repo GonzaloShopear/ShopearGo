@@ -1,9 +1,9 @@
 (function() {
 
 	angular.module('ShopearGo')
-	.controller('HomeCtrl', ['$scope', '$location', '$anchorScroll', HomeCtrl])
+	.controller('HomeCtrl', ['$scope', HomeCtrl])
 
-	function HomeCtrl ($scope, $location, $anchorScroll) {
+	function HomeCtrl ($scope) {
 		$scope.downloadDisabled = true;
 	};
 	

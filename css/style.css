@@ -54,11 +54,12 @@ i {
 .navbar-shopear .navbar-nav a span {
 	padding: 10px;
 	border: solid 2px #0E2740;
-	transition: all 0.5s ease;
+	transition: all 0.3s ease;
 }
 
-.navbar-shopear .navbar-nav a:hover {
-	background: none;
+.navbar-shopear .navbar-nav a:active span {
+	background-color: #fafafa;
+	color: #333;
 }
 
 .navbar-shopear .navbar-nav a:hover span {

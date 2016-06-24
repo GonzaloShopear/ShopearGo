@@ -156,6 +156,12 @@ i {
 	max-width: 600px;
 }
 
+.jumbotron-how {
+	color: #fafafa;
+	background-color: transparent;
+	max-width: 600px;
+}
+
 .page-section {
 	min-height:100vh;
  	position: relative;

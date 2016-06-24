@@ -1,4 +1,4 @@
-(function() {
+/*(function() {
 
 	angular.module('ShopearGo')
 	.config(function($routeProvider, $locationProvider) {
@@ -43,3 +43,4 @@
 	})
 
 })();
+*/

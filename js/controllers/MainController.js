@@ -1,16 +1,13 @@
 (function() {
 
-	angular.module('Digivice')
-	.controller('MainCtrl', ['$scope', 'TamersFactory', MainCtrl])
+	angular.module('ShopearGo')
+	.controller('MainCtrl', ['$scope', '$location', '$anchorScroll', MainCtrl])
 
-	function MainCtrl ($scope, TamersFactory) {
-
-		/*TamersFactory.success(function(data) {
-			$scope.tamers = data;
-		});*/
-
-		$scope.tamers = TamersFactory;
-
+	function MainCtrl ($scope, $location, $anchorScroll) {
+		$scope.scrollTo = function(id) {
+			$location.hash(id);
+			$anchorScroll();
+		}
 	};
 	
 })();

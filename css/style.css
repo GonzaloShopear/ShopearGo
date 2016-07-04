@@ -163,7 +163,7 @@ i {
 }
 
 .page-section {
-	min-height:100vh;
+	min-height:90vh;
  	position: relative;
 }
 
@@ -180,8 +180,8 @@ i {
 }
 
 .home-header-section {
-	/*background-image: url('../assets/img/main-cover-dark.jpg');
-	background-size: cover;*/
+	background-image: url('../assets/img/main-cover-dark.jpg');
+	background-size: cover;
 	max-width: 100%;
 	padding: 0;
 	overflow: hidden;
@@ -201,7 +201,10 @@ i {
 }
 
 .how-header-section {
-	background-color: #36A1B3;
+	/*background-color: #36A1B3;*/
+	background-image: url('../assets/img/main-cover-dark.jpg');
+	background-position: top center;
+	background-size: cover;
 }
 
 a, a:active, a:hover, a:focus, a:active:focus {
@@ -429,7 +432,7 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 
 .platform-header-section {
-	background-image: url('../assets/img/beaconblanco.jpg');
+	background-image: url('../assets/img/beaconblanco2.jpg');
 	color: #fafafa;
 	text-shadow: 1px 1px #333;
 	background-position: right top;
@@ -535,6 +538,10 @@ fieldset[disabled] .btn-shp-green.focus {
 }
 
 @media (min-width: 768px) {
+
+	.home-header-section {
+		background-image: none;
+	}
 
 	.navbar-nav>li>a {
 		padding-top: 10px;
